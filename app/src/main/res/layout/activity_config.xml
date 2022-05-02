@@ -35,7 +35,8 @@
 
     <EditText
         android:id="@+id/etDownLongClick"
-        style="@style/Config.Edittext" />
+        style="@style/Config.Edittext"
+        android:imeOptions="actionDone" />
 
     <Button
         android:id="@+id/btSave"
