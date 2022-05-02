@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        style="@style/Config.TextTitle"
+        android:text="@string/up_click" />
+
+    <EditText
+        android:id="@+id/etUpClick"
+        style="@style/Config.Edittext" />
+
+    <TextView
+        style="@style/Config.TextTitle"
+        android:text="@string/up_long_click" />
+
+    <EditText
+        android:id="@+id/etUpLongClick"
+        style="@style/Config.Edittext" />
+
+    <TextView
+        style="@style/Config.TextTitle"
+        android:text="@string/down_click" />
+
+    <EditText
+        android:id="@+id/etDownClick"
+        style="@style/Config.Edittext" />
+
+    <TextView
+        style="@style/Config.TextTitle"
+        android:text="@string/down_long_click" />
+
+    <EditText
+        android:id="@+id/etDownLongClick"
+        style="@style/Config.Edittext" />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+</LinearLayout>

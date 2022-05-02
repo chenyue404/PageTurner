@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">翻页器</string>
+    <string name="config">配置</string>
+    <string name="up">上</string>
+    <string name="down">下</string>
+    <string name="up_click">上点击</string>
+    <string name="down_click">下点击</string>
+    <string name="up_long_click">上长按</string>
+    <string name="down_long_click">下长按</string>
+    <string name="save">保存</string>
+</resources>
